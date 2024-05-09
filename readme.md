@@ -6,6 +6,7 @@ My base project for using Go, Echo, Templ, HTMX, and AlpineJS
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Environment](#environment)
 
 ## Installation
 
@@ -29,4 +30,13 @@ This project is a base project using the following technologies:
 - [DaisyUI](https://daisyui.com/)
 
 After running the project you can browse to ```localhost:8080``` to see a Landing page
+
+## Environment
+
+The following environment variables are used in this project:
+
+| Variable | Description |
+|----------|-------------|
+| `DEV_MODE` | Set this to "true" to get the browser to automatically refresh on changes after running `make run`. |
+
 
